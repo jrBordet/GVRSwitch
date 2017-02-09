@@ -41,7 +41,10 @@
     
     url = [NSArray arrayWithObjects:
            @"https://360clips.s3-eu-west-1.amazonaws.com/EURO/Stereo+clips/2017887-Goal_Daniel_Sturridge_360_TB.mp4",
-           @"https://360clips.s3-eu-west-1.amazonaws.com/EURO/Germania+-+Italia/M47_GER-ITA_BONUCCI+GOAL_360.mp4", nil];
+           @"https://360clips.s3-eu-west-1.amazonaws.com/EURO/Germania+-+Italia/M47_GER-ITA_BONUCCI+GOAL_360.mp4",
+           @"http://video360.ngdp.deltatre.net/360_transc_dgkv34jbwiufbu534jbkhb/smil:matchA_12_MBR.smil/playlist.m3u8",
+           @"http://54.228.204.57:1935/360_transc_dgkv34jbwiufbu534jbkhb/smil:matchA_12_MBR.smil/playlist.m3u8",
+           @"http://ch01-digitalmpillarmsnelab.streaming.mediaservices.windows.net/0723c5b7-cb81-47d4-9a55-69161d7f6207/cb2e80ad-1cf7-4955-a8a5-c27b19fe3437.ism/manifest(format=m3u8-aapl-v3)", nil];
     
     NSURL *videoURL = [NSURL URLWithString:[url objectAtIndex:index]];
 
